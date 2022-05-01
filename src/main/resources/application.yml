@@ -101,7 +101,7 @@ app:
     refreshTokenExpiry: 604800000
   oauth2:
     authorizedRedirectUris:
-      - http://localhost:3000/oauth/redirect.html
+      - http://k8s-default-backendi-a3ad399a4e-1150466428.ap-northeast-2.elb.amazonaws.com/oauth/redirect.html
 
 server:
   port: 8080
